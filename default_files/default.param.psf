@@ -1,0 +1,12 @@
+NUMBER                 Running object number                                     
+X_IMAGE                Object position along x                                    [pixel]
+Y_IMAGE                Object position along y                                    [pixel]
+ALPHAPSF_J2000         Right ascension of the fitted PSF (J2000)                  [deg]
+DELTAPSF_J2000         Declination of the fitted PSF (J2000)                      [deg]
+FLUX_PSF               Flux from PSF-fitting                                      [count]
+FLUXERR_PSF            RMS flux error for PSF-fitting                             [count]
+FLUX_APER              Flux vector within fixed circular aperture(s)              [count]
+FLUXERR_APER           RMS error vector for aperture flux(es)                     [count]
+FWHM_IMAGE             FWHM assuming a gaussian core                              [pixel]
+FLAGS                  Extraction flags                                          
+SNR_WIN                Gaussian-weighted SNR           

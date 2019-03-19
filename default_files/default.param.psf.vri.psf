@@ -1,0 +1,12 @@
+NUMBER                 Running object number                                     
+X_IMAGE                Object position along x                                    [pixel]
+Y_IMAGE                Object position along y                                    [pixel]
+ALPHAPSF_J2000         Right ascension of the fitted PSF (J2000)                  [deg]
+DELTAPSF_J2000         Declination of the fitted PSF (J2000)                      [deg]
+MAG_PSF                Magnitude from PSF-fitting                                 [mag]
+MAGERR_PSF             RMS magnitude error from PSF-fitting                       [mag]
+MAG_APER               Fixed aperture magnitude vector                           [mag]
+MAGERR_APER            RMS error vector for fixed aperture mag.                  [mag]
+FWHM_IMAGE             FWHM assuming a gaussian core                              [pixel]
+FLAGS                  Extraction flags                                          
+SNR_WIN                Gaussian-weighted SNR           

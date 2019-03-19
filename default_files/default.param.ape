@@ -1,0 +1,11 @@
+NUMBER                   Running object number                                    
+X_IMAGE                   Object position along x                                   [pixel]
+Y_IMAGE                   Object position along y                                   [pixel]
+FLUX_APER                #Flux vector within fixed circular aperture(s)             [count]
+FLUXERR_APER             #RMS error vector for aperture flux(es)                    [count]
+FLUX_MAX                  Peak flux above background                                [count]
+FLAGS                     Extraction flags                                         
+ELONGATION                A_IMAGE/B_IMAGE                                          
+VIGNET(11,11)            #Pixel data around detection                               [count]
+FLUX_RADIUS(1)           #Fraction-of-light radii                                   [pixel]
+SNR_WIN
