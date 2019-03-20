@@ -10,7 +10,8 @@ warnings.filterwarnings('ignore')
 ########## USER PARAMETERS ######################
 
 path = '/Users/felipegran/Desktop/Doctorado/ESO/m0.7m1.4pt1/' #with final /
-datacube_name = 'm0.7m1.4pt1.fits' 
+datacube_name = 'm0.7m1.4pt1.fits' #image names will be datacube_name without .fits
+img_name = datacube_name.split('.fits')[0]
 v_image = 'IMAGE_FOV_0002.fits'
 r_image = 'IMAGE_FOV_0003.fits'
 i_image = 'IMAGE_FOV_0004.fits'
