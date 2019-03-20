@@ -31,4 +31,7 @@ The last branch also is divided in three mayor phases that the first two can be 
 ## Version 1.0 (20.03.2019)
 
 [x] Base code the perform PSF photometry over MUSE slices.
+
 [x] Base code to create the CMDs of the field.
+
+[x] Base information to change scripts to the user preferences.
