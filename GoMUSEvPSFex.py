@@ -72,7 +72,7 @@ data = glob.glob('fits/*.s*.fits') #select sliced fits
 #Function to perform the parallel calls 
 def sextractor(img,i_fwhm):
 
-    img_name = img[5:22]
+    img_name = img_name = img.split('.fits')[0].split('fits/')[1]
     
     cmd1 = 'sex -PARAMETERS_NAME default.param.ape -DETECT_THRESH %s -ANALYSIS_THRESH %s -PHOT_APERTURES %1.2f -CATALOG_TYPE FITS_LDAC -CATALOG_NAME %s.ldac %s,%s' %(detect_tresh,analysis_tresh,1.5*i_fwhm,img_name,reference_image,img)
     os.system('%s' %cmd1)
