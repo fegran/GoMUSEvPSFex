@@ -14,13 +14,12 @@ fegran@uc.cl
 The exection of the program occurs in a working folder, that 
 at the begining contains:
 
-> default files for Sextractor/PSFex
-
-> Raw datacube 
-
-> Field of View images (White,V,R,I)
-
-> GoMUSEvPSFex.py
+```
+default files for Sextractor/PSFex
+Raw datacube 
+Field of View images (White,V,R,I)
+GoMUSEvPSFex.py
+```
 
 The python programme (**GoMUSEvPSFex.py**) can be divided in two mayor branches: "User parameters" and "Main features".
 The last branch also is divided in three mayor phases that the first two can be operate separatelly:
