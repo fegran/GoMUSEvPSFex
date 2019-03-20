@@ -1,6 +1,6 @@
 # GoMUSE vPSFex
 
-Repository containing scripts to perform PSF photometry on MUSE slices.
+This repository contains scripts to perform PSF photometry on MUSE slices.
 Heavily based on Sextractor/PSFex.
 
 Very unstable for the moment. All feedback on this project is valuable.
@@ -11,8 +11,8 @@ fegran@uc.cl
 
 ## Intended usage 
 
-The exection of the program occurs in a working folder, that 
-at the begining contains:
+The execution of the program occurs in a working folder, that 
+at the beginning contains:
 
 ```
 default files for Sextractor/PSFex
@@ -21,8 +21,8 @@ Field of View images (White,V,R,I)
 GoMUSEvPSFex.py
 ```
 
-The python programme (**GoMUSEvPSFex.py**) can be divided in two mayor branches: "User parameters" and "Main features".
-The last branch also is divided in three mayor phases that the first two can be operate separatelly:
+The python programme (**GoMUSEvPSFex.py**) can be divided in two major branches: "User parameters" and "Main features".
+The last branch also is divided into three major phases that the first two can be operated separately:
 
  - Phase 1: Perform PSF photometry on VRI FoV images and create the catalogs.
  - Phase 2: Separate slices using MissFITS to prepare to **Phase 3**.
@@ -34,7 +34,7 @@ The last branch also is divided in three mayor phases that the first two can be 
 
 [x] Base code to create the CMDs of the field.
 
-[x] Base information to change scripts to the user preferences.
+[x] Basic information to change scripts to the user preferences.
 
 ## Future ideas
 
