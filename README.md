@@ -25,8 +25,8 @@ The python programme (**GoMUSEvPSFex.py**) can be divided in two mayor branches:
 The last branch also is divided in three mayor phases that the first two can be operate separatelly:
 
  - Phase 1: Perform PSF photometry on VRI FoV images and create the catalogs.
- - Phase 2: Separate slices using MissFITS to prepare to ~~Phase 3~~.
- - Phase 3: Iterate over all the 3720 MUSE slices and perform PSF photometry creating individual catalogs.
+ - Phase 2: Separate slices using MissFITS to prepare to **Phase 3**.
+ - Phase 3: **After Phase 2**, iterate over all the 3720 MUSE slices and perform PSF photometry creating individual catalogs.
 
 ## Version 1.0 (20.03.2019)
 
