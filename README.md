@@ -41,3 +41,10 @@ The last branch also is divided in three mayor phases that the first two can be 
 [] Keep the default Sextractor/PSFex files on a separate unchanged folder
 
 [] Comment and add the original python aperture photometry code (based on astropy.photutils) to compare results with GoMUSEvPSFex.
+
+[] Add IPython Notebooks with examples.
+
+## Collaborators
+
+ - Elena Valenti
+ - Giacomo Beccari
