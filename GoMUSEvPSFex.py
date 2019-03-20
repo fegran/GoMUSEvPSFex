@@ -100,7 +100,8 @@ os.system('rm slice_psfex_output/*.fits')
 #n_jobs=-1 to select all the available cores 
 #verbose=1 very little output, normally only to check if the system is doing well (Total slices: 3720)
 #Then iterate over images in data (which contains all the slices)
-i_fwhm = fits.open('%s' %i_image)[0].header['HIERARCH ESO OCS SGS FWHM MED']/0.2
+pix_to_asec = 0.2 #arcsec/pix MUSE pixel scale
+i_fwhm = fits.open('%s' %i_image)[0].header['HIERARCH ESO OCS SGS FWHM MED']/pix_to_asec
 Parallel(n_jobs=-1, verbose=1)(delayed(sextractor)(img,i_fwhm) for img in data) #if you want to test the code first change to data[0:20]
 #At the end of the iteration the folder slice_catalogs/ will contains all the photometry catalogs
 
