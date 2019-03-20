@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 
 ########## USER PARAMETERS ######################
 
-path = '/Users/felipegran/Desktop/Doctorado/ESO/m0.7m1.4pt1/'
+path = '/Users/felipegran/Desktop/Doctorado/ESO/m0.7m1.4pt1/' #with final /
 datacube_name = 'm0.7m1.4pt1.fits' 
 v_image = 'IMAGE_FOV_0002.fits'
 r_image = 'IMAGE_FOV_0003.fits'
@@ -57,7 +57,7 @@ os.system('mv v.psf.cat r.psf.cat i.psf.cat cmds_output/')
 ####### Phase 2: Slicing the DATACUBE ########################
 
 os.chdir('%sfits/' %path) #move to path/fits/
-os.system('mv %s %sfits/' %(datacube_name, path)) #move the datacube to the /fits/ folder
+os.system('mv ../%s %sfits/' %(datacube_name, path)) #move the datacube to the /fits/ folder
 os.system('missfits -c ../default.missfits %s' %datacube_name) #extract the datacubes
 
 ##############################################################
