@@ -28,6 +28,9 @@ The last branch also is divided into three major phases that the first two can b
  - Phase 2: Separate slices using MissFITS to prepare to **Phase 3**.
  - Phase 3: **After Phase 2**, iterate over all the 3720 MUSE slices and perform PSF photometry creating individual catalogs.
 
+After a successful run of the script, there will be three (VRI) catalogs on **cmds_output/** and catalogs for each slice on **slice_catalogs/**.
+Each catalog will contain a unique star ID, (X,Y) and (RA,Dec) coordinates, magnitudes/fluxes for the CMD/slices and three diagnostic quantities (flags,fwhm, and SNR).
+
 ## Version 1.0 (20.03.2019)
 
 [x] Base code the perform PSF photometry over MUSE slices.
