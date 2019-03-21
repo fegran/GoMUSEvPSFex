@@ -11,6 +11,8 @@ fegran@uc.cl
 
 ## Intended usage 
 
+Here you can find an example of the usage: [HTML](https://github.com/fegran/GoMUSEvPSFex/blob/master/GoMUSEvPSFex.html) or [Jupyter Notebook](https://github.com/fegran/GoMUSEvPSFex/blob/master/GoMUSEvPSFex.ipynb).
+
 The execution of the program occurs in a working folder, that 
 at the beginning contains:
 
@@ -47,7 +49,7 @@ Each catalog will contain a unique star ID, (X,Y) and (RA,Dec) coordinates, magn
 
 [] Add IPython Notebooks with examples.
 
-## Collaborators
+## Acknowledgments
 
  - Elena Valenti
  - Giacomo Beccari
