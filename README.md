@@ -11,7 +11,7 @@ fegran@uc.cl
 
 ## Intended usage 
 
-Here you can find an example of the usage: [HTML](https://github.com/fegran/GoMUSEvPSFex/blob/master/GoMUSEvPSFex.html) or [Jupyter Notebook](https://github.com/fegran/GoMUSEvPSFex/blob/master/GoMUSEvPSFex.ipynb).
+Here you can find an example of the usage: [Jupyter Notebook](https://github.com/fegran/GoMUSEvPSFex/blob/master/GoMUSEvPSFex.ipynb).
 
 The execution of the program occurs in a working folder, that 
 at the beginning contains:
