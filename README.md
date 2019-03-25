@@ -28,7 +28,7 @@ The last branch also is divided into three major phases that the first two can b
 
  - Phase 1: Perform PSF photometry on VRI FoV images and create the catalogs.
  - Phase 2: Separate slices using MissFITS to prepare to **Phase 3**.
- - Phase 3: **After Phase 2**, iterate over all the 3720 MUSE slices and perform PSF photometry creating individual catalogs.
+ - Phase 3: **After Phase 2**, iterate over all the MUSE slices and perform PSF photometry creating individual catalogs.
 
 After a successful run of the script, there will be three (VRI) catalogs on **cmds_output/** and catalogs for each slice on **slice_catalogs/**.
 Each catalog will contain a unique star ID, (X,Y) and (RA,Dec) coordinates, magnitudes/fluxes for the CMD/slices and three diagnostic quantities (flags,fwhm, and SNR).
@@ -41,13 +41,13 @@ Each catalog will contain a unique star ID, (X,Y) and (RA,Dec) coordinates, magn
 
 [x] Basic information to change scripts to the user preferences.
 
+[x] Add IPython Notebooks with examples.
+
 ## Future ideas
 
 [] Keep the default Sextractor/PSFex files on a separate unchanged folder
 
 [] Comment and add the original python aperture photometry code (based on astropy.photutils) to compare results with GoMUSEvPSFex.
-
-[] Add IPython Notebooks with examples.
 
 ## Acknowledgments
 
