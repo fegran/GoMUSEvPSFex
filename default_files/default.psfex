@@ -67,7 +67,7 @@ CHECKPLOT_DEV       PNG        # NULL, XWIN, TK, PS, PSC, XFIG, PNG,
                                 # JPEG, AQT, PDF or SVG
 CHECKPLOT_RES       0           # Check-plot resolution (0 = default)
 CHECKPLOT_ANTIALIAS Y           # Anti-aliasing using convert (Y/N) ?
-CHECKPLOT_TYPE      FWHM,ELLIPTICITY,COUNTS, COUNT_FRACTION, CHI2, RESIDUALS
+CHECKPLOT_TYPE      NONE        #FWHM,ELLIPTICITY,COUNTS, COUNT_FRACTION, CHI2, RESIDUALS
                                 # or NONE
 CHECKPLOT_NAME      fwhm, ellipticity, counts, countfrac, chi2, resi
  
